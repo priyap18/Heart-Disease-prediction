@@ -4,7 +4,7 @@ import joblib
 class Prediction:
 
     def __init__(self):
-        self.model = joblib.load("model.pkl")
+        self.model = joblib.load("model/model.pkl")
 
     def predict(self, features):
 
