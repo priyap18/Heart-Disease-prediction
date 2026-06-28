@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-from prediction import Prediction
+from src.prediction import Prediction
 
 app = Flask(__name__)
 

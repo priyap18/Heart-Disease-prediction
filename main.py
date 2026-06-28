@@ -1,6 +1,6 @@
-from data_loader import DataLoader
-from model_training import ModelTrainer
-from hyperparameter_tuning import HyperParameterTuning
+from src.data_loader import DataLoader
+from src.model_training import ModelTrainer
+from src.hyperparameter_tuning import HyperParameterTuning
 
 from sklearn.model_selection import train_test_split
 import joblib
